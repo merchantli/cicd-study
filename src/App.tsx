@@ -9,7 +9,7 @@ interface Props {
 
 const App: FC<Props> = ({ value }) => {
   const [count, setCount] = useState(0)
-
+  console.log(123, '增加console')
   return (
     <div className="App">
       <header className="App-header">
